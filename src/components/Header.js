@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-
+import Flip from 'react-reveal/Flip';
 const Header = () =>{
 
     const [count,setCount] = useState(0);
@@ -17,11 +17,19 @@ const Header = () =>{
         
         <div className="section">
             <div className="container">
-                <div className="header-wrapper">
-                    <h3>안녕하세요</h3>
-                    <h3> 개발자 <span> 정현명 </span>  입니다</h3> 
-                    <h3 >저는 <span className={parseInt(count%4)>=3 ? "header-changebar-end": "header-changebar-start"}>{arr[parseInt(count/4)]}</span></h3>
-                </div>
+                
+                    <div className="header-wrapper">
+                    
+                        <h3>
+                            <Flip cascade top>
+                                안녕하세요 <br/>개발자 정현명 입니다
+                            </Flip>
+                        </h3>
+                        <h3>저는 <span className={parseInt(count%4)>=3 ? "header-changebar-end": "header-changebar-start"}>{arr[parseInt(count/4)]}</span> </h3>
+                   
+                   
+                    </div>
+                
             </div>
         </div>
 

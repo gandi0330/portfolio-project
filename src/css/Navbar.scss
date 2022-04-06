@@ -9,6 +9,12 @@
         font-size: 40px;
         font-family: 'Open Sans', sans-serif;
         font-weight: 500;
+        &:active{
+            color:#0064FF;
+        }
+        .nav-title-char:hover{
+            color:#0064FF;
+        }
     }
     .nav-links{
         button {
@@ -23,6 +29,7 @@
             background-color: transparent;
         
             &:hover{
+                color:#0064FF;
                 opacity: 1;
             }
         }
