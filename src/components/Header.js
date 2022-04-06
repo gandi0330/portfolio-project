@@ -26,8 +26,7 @@ const Header = () =>{
                             </Flip>
                         </h3>
                         <h3>저는 <span className={parseInt(count%4)>=3 ? "header-changebar-end": "header-changebar-start"}>{arr[parseInt(count/4)]}</span> </h3>
-                   
-                   
+
                     </div>
                 
             </div>
