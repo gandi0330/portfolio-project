@@ -1,14 +1,18 @@
 .header-wrapper{
     width:80%;
     margin-top:15%;
+    margin-bottom:10%;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
+    font-family: 'Noto Serif KR', serif;
     .header-changebar-start{
         opacity: 1;
         transition-duration: 1s;
+        color:darkcyan;
     }
     .header-changebar-end{
         opacity: 0;
         transition-duration: 1s;
+        color:darkcyan;
     }
 }

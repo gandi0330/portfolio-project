@@ -26,9 +26,9 @@ const Navbar = () =>{
 
                         </div>
                         <div className="nav-links">
-                            <button onClick={()=>scrollTo("#projects")}>projects</button>
-                            <button onClick={()=>scrollTo("#skills")}>skills</button>
-                            <button onClick={()=>scrollTo("#contact")}>contact</button>
+                            <button onClick={()=>scrollTo("#projects")}>Projects</button>
+                            <button onClick={()=>scrollTo("#skills")}>Skills</button>
+                            <button onClick={()=>scrollTo("#contact")}>Contact</button>
                         </div>
                     </Fade>
                 </div>

@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade';
 
 const Footer = () =>{
     return (
-        <div className="section">
+        <div className="section" id="contact">
             <div className="container">
                 <div className="footer-container">
                 <Fade bottom cascade>
@@ -22,8 +22,27 @@ const Footer = () =>{
                         </a>
                     </div>
                 </Fade>
-                    <div>
-                        Made by 현명🎈
+                    <div className="contact-infos">
+                        <div>
+                            <span className="info-title">Name</span> 
+                            <span> 정현명 (Hyeonmyeong Jung)</span>
+                        </div>
+                        <div>
+                            <span className="info-title">Age</span> 
+                            <span> 25 </span>
+                        </div>
+                        <div>
+                            <span className="info-title">Address</span>
+                            <span> GwangJu, Korea </span>
+                        </div>
+                        <div>
+                            <span className="info-title">Phone</span>
+                            <span> +82 10-6342-5756 </span>
+                        </div>
+                        <div>
+                            <span className="info-title">E-mail</span>
+                            <span> gandi0330@naver.com</span>
+                        </div>
                     </div>
                 </div>
             </div>
